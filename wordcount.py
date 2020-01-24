@@ -7,7 +7,7 @@ matr = matrix.split(";")
 #print (matr)
 row = 0
 row = matr.__len__()
-# Split the matrix in colomns
+# Split the matrix in columns
 col = matr[0].split(' ').__len__()
 mat =[]
 mdel=[]
@@ -50,7 +50,7 @@ for i in range(matr.__len__()):
                         beforej= startj
                         startj = 2*(startj-1)
                         flag=True
-#               check the right side of the first colomn's elements
+#               check the right side of the first column's elements
                 elif (startj!= col-1 and startj == 0 and word[k+1] == matr2[starti][2*(startj+1)] and beforej != 2*(startj+1)):
 
                         beforej = startj
